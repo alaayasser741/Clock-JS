@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +11,13 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #091921;
+  flex-direction: column;
+  gap: 30px;
+}
+body h1 {
+  color: #132935;
+  font-family: "Roboto Slab", serif;
+  font-size: 3rem;
 }
 
 .clock {
